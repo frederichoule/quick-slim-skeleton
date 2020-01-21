@@ -1,0 +1,3 @@
+<?php
+
+    $p->world = 'World';

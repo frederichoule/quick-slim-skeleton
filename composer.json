@@ -1,0 +1,10 @@
+{
+    "require": {
+        "slim/slim": "4.*",
+        "slim/psr7": "^0.6.0",
+        "php-di/php-di": "^6.0",
+        "symfony/yaml": "^5.0",
+        "tuupola/slim-basic-auth": "^3.2",
+        "slim/php-view": "^2.2"
+    }
+}
