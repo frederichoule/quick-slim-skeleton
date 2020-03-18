@@ -4,6 +4,8 @@
   use Psr\Http\Server\RequestHandlerInterface as RequestHandler;
   use Slim\Psr7\Response;
 
+  $app->addBodyParsingMiddleware();
+
   $app->add(function (Request $request, RequestHandler $handler) {
     $uri = $request->getUri();
     $path = $uri->getPath();
